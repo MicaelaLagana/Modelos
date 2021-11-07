@@ -7,7 +7,7 @@ const Container = styled.div`
 `;
 const ContainerDescription = styled.div`
     position: absolute;
-    padding: 0 55px;
+    padding: 0 18vw;
     text-align: justify;
     color: white;
     height: 78%;
@@ -15,7 +15,7 @@ const ContainerDescription = styled.div`
     display: flex;
     align-items: center;
     z-index: 10;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: 700;
     text-shadow: 1px 1px 2px black;
 `;
