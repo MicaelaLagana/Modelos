@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  max-height: 105px;
+}
+.makeStyles-root-1  {
+  height: 100%;
+}
+.makeStyles-itemWrapper-3 {
+  height: 85% !important;
+}
+.makeStyles-indicators-4 {
+  position: absolute;
+  bottom: 0;
+  z-index: 1000;
+}
