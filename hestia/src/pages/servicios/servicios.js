@@ -36,7 +36,7 @@ export default function Servicios() {
     <>
       <Navbar />
       <MainContainer>
-        <Carrousel items={items} autoPlay={false}/>
+        <Carrousel items={items} />
       </MainContainer>
     </>
   );
