@@ -3,6 +3,7 @@ import Carousel from 'react-material-ui-carousel';
 import { arrayOf, string, shape, oneOf, bool } from 'prop-types'
 import styled from "styled-components";
 import CarrouselItemBanner from "../carrousel_item_banner";
+import CarrouselItemCard from "../carrousel_item_card";
 import ChevronLeft from '@mui/icons-material/ChevronLeft';
 import ChevronRight from '@mui/icons-material/ChevronRight';
 
@@ -14,9 +15,31 @@ const Carrousel = ({ items, itemRender, height, width, autoPlay, showControls })
     }
   })
 
-  const getItemFormanted = (item) => {
-    return itemRender === 'banner' ? <CarrouselItemBanner {...item} /> : null;
+  const getItemsFormanted = () => {
+    if(itemRender === 'banner') {
+      return items.map((item, index) => <CarrouselItemBanner {...item} />)
+    }
+
+    const pages = [];
+    const amountPages = Math.ceil(items.length / 3);
+    let index = 0
+    for(let i = 0; i < amountPages; i++) {
+      for(let b = 0; b < 3; b++) {
+        if(b===0) {
+          pages[i] = [];
+        }
+
+        if(items[index]) {
+
+          pages[i].push(items[index]);
+        }
+        index += 1;
+      }
+    }
+    
+    return pages.map(p => <CarrouselItemCard page={p} />);
   }
+  
   return (
     <CarrouselContainer>
       <Carousel
@@ -30,7 +53,7 @@ const Carrousel = ({ items, itemRender, height, width, autoPlay, showControls })
         }}
       >
         {
-          items.map((item, index) => getItemFormanted(item))
+          getItemsFormanted()
         }
       </Carousel>
     </CarrouselContainer>
