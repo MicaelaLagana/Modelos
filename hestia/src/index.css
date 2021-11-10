@@ -129,3 +129,8 @@ code {
 .testimonio-page .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-1dmqq99-MuiPaper-root-MuiCard-root {
   border-radius: 16px;
 }
+
+.menu_link {
+  text-decoration: none;
+  color: white;
+}

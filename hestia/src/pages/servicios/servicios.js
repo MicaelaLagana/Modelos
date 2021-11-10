@@ -23,12 +23,12 @@ export default function Servicios() {
     {
       img: edificios_banner,
       title: "Administracion de Amenities",
-      description: "Si su consorcio posee partes comunes, Hestia cuent con un sistem de registro de dichos amenities, para llevar a cabo su seguimiento, y ademas disponibilizando los mismos para que mediante la plataforma , inquilinos y propietarios puedan consultar la disponibilidad y reservar los mismos."
+      description: "Si su consorcio posee partes comunes, Hestia cuenta con un sistema de registro de dichos amenities, para llevar a cabo su seguimiento, y ademas disponibilizando los mismos para que mediante la plataforma, inquilinos y propietarios puedan consultar la disponibilidad y reservar los mismos."
     },
     {
       img: edificios_banner,
       title: "Seguimientos de pedidos",
-      description: "En Hestia nos hemos preocupado por mejorar la experiencia de avisos de visita u otras notifaciones importante, hemos dejado de lado los avisos manuales por llamados o letreros, y hemos incorporado un sistema de notificaciones, el cual al registrar un aviso de visita , en ese mismo momento se notificara a cada usario del consorcio."
+      description: "En Hestia nos hemos preocupado por mejorar la experiencia de avisos de visita u otras notifaciones importante, hemos dejado de lado los avisos manuales por llamados o letreros, y hemos incorporado un sistema de notificaciones, el cual al registrar un aviso de visita, en ese mismo momento se notificara a cada usario del consorcio."
     },
   ];
 
