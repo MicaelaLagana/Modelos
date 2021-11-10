@@ -5,7 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
 import { Link } from "react-router-dom";
 import Button from '@mui/material/Button';
-
+import logo from  "../../assets/images/logo_h.png";
 
 export default function Navbar() {
   return (
@@ -19,7 +19,7 @@ export default function Navbar() {
             aria-label="open drawer"
             sx={{ mr: 2 }}
           >
-            HestiaLogo
+            <img src={logo}/>
           </IconButton>
 
           <Box sx={{ flexGrow: 1 }} />
