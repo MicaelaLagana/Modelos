@@ -1,4 +1,5 @@
  body {
+  
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -26,6 +27,12 @@ code {
   bottom: 0;
   z-index: 1000;
 }
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
 
 .teamgrid .MuiGrid-item{
   display: flex;
@@ -91,6 +98,7 @@ code {
   color: white;
   padding: 20px;
   transform: rotateY(180deg);
+  border-radius: 14%;
 }
 
 .card li {
