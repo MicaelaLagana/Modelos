@@ -25,19 +25,15 @@ export default function Team() {
                     <img className='teamimg' src={fede}/>
                   </div>
                   <li>
-                    <strong>Federico Santos</strong>
-                  </li>
-                  <li>
-                    <strong>Software Developer</strong>
+                    <h1>Federico Santos</h1>
+                    <p>Software Developer</p>
                   </li>
                 </div>
                 <div className='card-back'>
-                  <h1></h1>
-                  <ul>
+                  <h1>Software Developer</h1>
                     <li>
-                      <strong>En Hestia sistemas hago de todo</strong>
+                      <p>En Hestia sistemas hago de todo</p>
                     </li>
-                  </ul>
                 </div>
               </div>
             </div>
@@ -50,19 +46,15 @@ export default function Team() {
                     <img className='teamimg' src={mica}/>
                   </div>
                   <li>
-                    <strong>Micaela Lagana</strong>
-                  </li>
-                  <li>
-                    <strong>Software Developer</strong>
+                    <h1>Micaela Lagana</h1>
+                    <p>Software Developer</p>
                   </li>
                 </div>
                 <div className='card-back'>
-                  <h1></h1>
-                  <ul>
+                  <h1>Software Developer</h1>
                     <li>
-                      <strong>En Hestia sistemas hago de todo</strong>
+                      <p>En Hestia sistemas hago de todo</p>
                     </li>
-                  </ul>
                 </div>
               </div>
             </div>
@@ -77,19 +69,15 @@ export default function Team() {
                     <img className='teamimg' src={chris}/>
                   </div>
                   <li>
-                    <strong>Christian Giliberti</strong>
-                  </li>
-                  <li>
-                    <strong>Ux</strong>
+                    <h1>Christian Giliberti</h1>
+                    <p>Customer Support</p>
                   </li>
                 </div>
                 <div className='card-back'>
-                  <h1></h1>
-                  <ul>
+                  <h1>Customer Support</h1>
                     <li>
-                      <strong>En Hestia sistemas hago de todo</strong>
+                      <p>En Hestia sistemas hago de todo</p>
                     </li>
-                  </ul>
                 </div>
               </div>
             </div>
@@ -102,19 +90,15 @@ export default function Team() {
                     <img className='teamimg' src={nes}/>
                   </div>
                   <li>
-                    <strong>Nestor Rivera</strong>
-                  </li>
-                  <li>
-                    <strong>QA</strong>
+                    <h1>Nestor Rivera</h1>
+                    <p>Marketing Officer</p>
                   </li>
                 </div>
                 <div className='card-back'>
-                  <h1></h1>
-                  <ul>
+                  <h1>Marketing Officer</h1>
                     <li>
-                      <strong>En Hestia sistemas hago de todo</strong>
+                      <p>En Hestia sistemas hago de todo</p>
                     </li>
-                  </ul>
                 </div>
               </div>
             </div>
