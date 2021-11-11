@@ -67,6 +67,12 @@ code {
   margin-bottom: 10px;
 }
 
+.card-img {
+  display: flex;
+  justify-content: center;
+}
+
+
 .card p {
   display: flex;
   justify-content: center;

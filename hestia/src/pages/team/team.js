@@ -21,7 +21,7 @@ export default function Team() {
             <div className='card'>
               <div className='card-inner'>
                 <div className='card-front'>
-                  <div>
+                  <div className='card-img'>
                     <img className='teamimg' src={fede}/>
                   </div>
                   <li>
@@ -42,7 +42,7 @@ export default function Team() {
             <div className='card'>
               <div className='card-inner'>
                 <div className='card-front'>
-                <div>
+                <div className='card-img'>
                     <img className='teamimg' src={mica}/>
                   </div>
                   <li>
@@ -65,7 +65,7 @@ export default function Team() {
             <div className='card'>
               <div className='card-inner'>
                 <div className='card-front'>
-                <div>
+                <div className='card-img'>
                     <img className='teamimg' src={chris}/>
                   </div>
                   <li>
@@ -86,7 +86,7 @@ export default function Team() {
             <div className='card'>
               <div className='card-inner'>
                 <div className='card-front'>
-                <div>
+                <div className='card-img'>
                     <img className='teamimg' src={nes}/>
                   </div>
                   <li>
