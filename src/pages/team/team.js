@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "../../components/navbar";
-import { Grid } from '@material-ui/core'
 import fede from "../../assets/images/Federico_Santos.jpg";
 import mica from "../../assets/images/Micaela_Lagana.jpg";
 import chris from "../../assets/images/Christian_Giliberti.jpg";

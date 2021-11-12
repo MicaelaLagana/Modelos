@@ -13,22 +13,6 @@ code {
     monospace;
 }
 
-/* revisar */
-.css-hip9hq-MuiPaper-root-MuiAppBar-root {
-  max-height: 105px;
-}
-.jss16 {
-  height: 100%;
-}
-.jss3 {
-  height: 85% !important;
-}
-.jss4 {
-  position: absolute;
-  bottom: 14px;
-  z-index: 1000;
-}
-
 .titulo{
     display: flex;
     justify-content: center;
@@ -118,30 +102,6 @@ code {
   .cards {
     grid-template-columns: 1fr;
   }
-}
-
-.testimonio-page .css-g1sfbl{
-  display: inline-flex;
-}
-
-.testimonio-page .jss47 {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  top: 7.2em;
-}
-
-.testimonio-page .MuiCardContent-root {
-  border: 1px solid #d9cece;
-  border-radius: 16px;
-}
-
-.testimonio-page .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-g1sfbl {
-  border-radius: 16px;
-}
-
-.testimonio-page .jss48 {
-  height: 370px;
 }
 
 .menu_link {
