@@ -1,12 +1,7 @@
 import React from "react";
 import Navbar from "../../components/navbar";
 import Carrousel from '../../components/carrousel';
-import styled from "styled-components";
 import edificios_banner from "../../assets/images/edificios_banner.jpg";
-
-const MainContainer = styled.div`
-  padding: 4vh 4vh 0 4vh;
-`
 
 export default function Servicios() {
   const items = [
@@ -35,9 +30,9 @@ export default function Servicios() {
   return (
     <>
       <Navbar />
-      <MainContainer>
+      <div className="service-container">
         <Carrousel items={items} />
-      </MainContainer>
+      </div>
     </>
   );
 }

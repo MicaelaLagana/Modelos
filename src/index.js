@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import Contactos from './pages/contactos';
 import Servicios from "./pages/servicios";
 import Team from "./pages/team";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./pages/home_about";
 import Testimonio from "./pages/testimonios";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
