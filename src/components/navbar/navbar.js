@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { Navbar as NavbarBoostrap, Container, Nav } from 'react-bootstrap';
-
+import Logo from '../../assets/images/logo_h.png';
 const {
   Brand,
   Toggle,
@@ -14,9 +14,9 @@ const {
 
 export default function Navbar() {
   return (
-    <NavbarBoostrap collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <NavbarBoostrap collapseOnSelect expand="lg">
       <Container>
-        <Brand>HestiaLogo</Brand>
+        <Brand><img src={Logo} alt="logo" /></Brand>
         <Toggle aria-controls="responsive-navbar-nav" />
         <Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
