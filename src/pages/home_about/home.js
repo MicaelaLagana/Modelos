@@ -4,7 +4,7 @@ import Home_bg from "../../assets/images/home_bg.jpg";
 import { Row, Col, Button } from 'react-bootstrap';
 import aboutus from "../../assets/images/home_about_us.jpg";
 import comunication from "../../assets/images/home_comunication.jpg";
-
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -60,8 +60,8 @@ export default function Home() {
         </Row>
         <Row sm={12} md={12} lg={12} className="mt-4">
          <div class='home_button'>
-            <Button color='primary'>
-              Contactanos
+         <Button color='primary'>
+            <Link className="menu_link" to="/contactos">Contactos</Link>
             </Button>
           </div>
         </Row>
