@@ -1,28 +1,22 @@
-import React, { useState } from "react";
+import React from "react";
 import { Form, Button, Container, Card, FloatingLabel } from 'react-bootstrap';
+import AlertDismissible from "../alert";
 
 const {
   Group,
   Label,
   Control,
   Check,
-  Text
+  Text,
 } = Form;
 
 export default function ContactForm() {
 
   function handleClick() {
-    setValueLastName("");
-    setValueLastName("");
-    setValueEmail("");
-    setValueMultitex("");
+    AlertDismissible();
+    window.location.reload();
   }
 
-  const [valueName, setValueName] = useState("");
-  const [valueLastName, setValueLastName] = useState("");
-  const [valueEmail, setValueEmail] = useState("");
-  const [valueMultitext, setValueMultitex] = useState("");
-  const [valueRadio, setValueRadio] = useState("");
 
 
   return (
@@ -47,19 +41,21 @@ export default function ContactForm() {
     //   </Paper>
     // </Grid>
     <Container className="justify-center p-5">
-      <Card className="p-4">
+      <Text> Agendá una demo con nosotros </Text>
+      <Card className="p-4"
+       style={{ height: '600px' }}>
         <Form>
           <Group className="mb-3" controlId="formBasicEmail">
             <Label>Nombre</Label>
-            <Control type="text" placeholder="Nombre" value={valueName} onChange={(e) => setValueName(e)} />
+            <Control type="text" placeholder="Nombre"  />
           </Group>
           <Group className="mb-3" controlId="formBasicEmail">
             <Label>Apellido</Label>
-            <Control type="text" placeholder="Apellido" value={valueLastName} onChange={(e) => setValueLastName(e)} />
+            <Control type="text" placeholder="Apellido"  />
           </Group>
           <Group className="mb-3" controlId="formBasicEmail">
             <Label>Email</Label>
-            <Control type="email" placeholder="Email" value={valueEmail} onChange={(e) => setValueEmail(e)} />
+            <Control type="email" placeholder="Email" />
           </Group>
 
           <FloatingLabel controlId="floatingTextarea2" label="Mensaje">
@@ -67,8 +63,6 @@ export default function ContactForm() {
               as="textarea"
               placeholder="Escribanos su mensaje"
               style={{ height: '100px' }}
-              onChange={(e) => setValueMultitex(e)}
-              value={valueMultitext}
             />
           </FloatingLabel>
           <div key="inline-radio" className="mt-3">
@@ -87,7 +81,7 @@ export default function ContactForm() {
               id="inline-radio-prop"
             />
           </div>
-          <Button variant="primary mt-3" onclick={() => handleClick()} >
+          <Button variant="primary mt-3" onClick={handleClick} >
           Enviar
           </Button>
         </Form>
