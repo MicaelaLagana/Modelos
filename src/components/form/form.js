@@ -20,11 +20,17 @@ export default function ContactForm() {
   }
   console.log(show);
   return (
-    <Container className="body">
-      <Container className="justify-center p-5">
-        <h2 className="demo"> Agendá una demo con nosotros </h2>
+    <div className="body" style={{
+      display: "flex",
+      justifyContent: "end",
+    }}>
+      <div className=" p-5 col-6" style={{
+              marginTop: "200px",
+              marginRight: "200px",
+              width: "700px"
+      }}>
         <Card className="p-4"
-        style={{ height: show ? '800px' : '600px' }}>
+        style={{ height: show ? '700px' : '500px' }}>
           <Form>
             <Group className="mb-3" controlId="formBasicEmail">
               <Label>Nombre</Label>
@@ -68,7 +74,7 @@ export default function ContactForm() {
             </Button>
           </Form>
         </Card>
-      </Container>
-    </Container>
+      </div>
+    </div>
   );
 }

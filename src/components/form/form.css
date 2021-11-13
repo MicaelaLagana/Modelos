@@ -5,4 +5,9 @@
 
 .body {
     background: url("../../assets/images/landscape.png") fixed no-repeat;
+    position: absolute;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    width: 100%;
 }

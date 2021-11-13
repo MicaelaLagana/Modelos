@@ -2,9 +2,11 @@ import React from "react";
 import Navbar from "../../components/navbar";
 import Carrousel from '../../components/carrousel';
 import styled from "styled-components";
+import bgImage from "../../assets/images/bg.jpg";
 
 const MainContainer = styled.div`
     padding: 2em;
+    z-index: 5;
 `;
 export default function Testimonios() {
   const items = [
@@ -28,18 +30,33 @@ export default function Testimonios() {
         role: "Duce Hogar",
     },
     {
-        date: "13 Febrero 2021",
-        name: "Sofia Suarez",
-        comment: "Enviar las expensas en forma digital nos ahorra mucho tiempo.",
-        role: "Inmobiliarte",
+        date: "02 Agosto 2021",
+        name: "Camila Rodriguez",
+        comment: "¡Estoy feliz porque me resuelven super rápido los pedidos de servicios!",
+        role: "Inquilina",
     },
+    {
+      date: "13 Febrero 2021",
+      name: "Sofia Suarez",
+      comment: "Enviar las expensas en forma digital nos ahorra mucho tiempo.",
+      role: "Inmobiliarte",
+  },
+  {
+    date: "07 Julio 2021",
+    name: "Martín García",
+    comment: "Está bueno porque ya no tenemos que andar leyendo los comunicados en el ascensor.",
+    role: "Inquilino",
+},
   ];
 
   return (
     <div className="testimonio-page">
       <Navbar />
+      <div className="bgContainer">
+        <img src={bgImage} />
+      </div>
       <MainContainer>
-        <Carrousel items={items} itemRender="card" />
+        <Carrousel items={items} itemRender="card" height="75vh"/>
       </MainContainer>
     </div>
   );

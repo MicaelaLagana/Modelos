@@ -24,7 +24,7 @@ const Carousel = ({ height, width, itemRender, items }) => {
           <div>
 
           </div>
-        <img style={{height: '31em', width: '90vw' }}
+        <img style={{height: '40em', width: '100vw' }}
           className="d-block"
           src={item.img}
           alt={item.title}
@@ -87,7 +87,7 @@ Carousel.defaultProps = {
   autoPlay: true,
   showControls: true,
   itemRender: 'banner',
-  height: '75vh',
+  height: '100vh',
   width: '100%',
 }
 

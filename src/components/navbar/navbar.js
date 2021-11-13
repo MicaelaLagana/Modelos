@@ -16,14 +16,14 @@ export default function Navbar() {
   return (
     <NavbarBoostrap collapseOnSelect expand="lg">
       <Container>
-        <Brand><img src={Logo} alt="logo" /></Brand>
+        <Brand><Link to="/"><img src={Logo} alt="logo" /></Link></Brand>
         <Toggle aria-controls="responsive-navbar-nav" />
         <Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
           </Nav>
           <Nav>
             <LinkNav >
-              <Link className="menu_link" to="/">About</Link>
+              <Link className="menu_link" to="/">Nosotros</Link>
             </LinkNav>
             <LinkNav >
               <Link className="menu_link" to="/servicios">Servicios</Link>

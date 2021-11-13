@@ -140,7 +140,8 @@ code {
 }
 
 .service-container {
-  padding: 4vh 4vh 0 4vh;
+  padding: 8vh 8vh 0 8vh;
+  margin-top: 50px;
 }
 .service-container .carousel  {
   position: relative;
@@ -155,7 +156,7 @@ code {
 
 .carousel-text{
   top: -4.5em;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
   text-shadow: 1px;
   text-shadow: 0px 1px 5px black;
@@ -171,6 +172,13 @@ code {
   justify-content: center;
   align-items: center;
   height: 100%;
+  z-index: 5;
+  position: relative;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  z-index: 5;
+  position: relative;
 }
 
 .carousel-card-item-data {

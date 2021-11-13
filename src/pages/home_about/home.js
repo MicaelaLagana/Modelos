@@ -13,7 +13,6 @@ export default function Home() {
       <section id='home_img'>
         <div >
           <img src={Home_bg} alt='relax' />
-          <div class='home_title'><h1>Bienvenido a Hestia sistemas</h1></div>
         </div>
       </section>
 
