@@ -13,7 +13,7 @@ code {
     monospace;
 }
 
-.titulo{
+.titulo{ 
     display: flex;
     justify-content: center;
     z-index: 5;
@@ -43,16 +43,6 @@ code {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
-}
-
-.card {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  cursor: pointer;
-  background-color: transparent;
-  height: 300px;
-  perspective: 1000px;
 }
 
 .card h1 {
