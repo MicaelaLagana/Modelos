@@ -59,10 +59,12 @@ export default function Home() {
           </Col>
         </Row>
         <Row sm={12} md={12} lg={12} className="mt-4">
-         <div class='home_button'>
-         <Button color='primary'>
-            <Link className="menu_link" to="/contactos">Contactos</Link>
-            </Button>
+          <div class='home_button'>
+            <Link className="menu_link" to="/contactos">
+              <Button color='primary'>
+                Contactos
+              </Button>
+            </Link>
           </div>
         </Row>
 

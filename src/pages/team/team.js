@@ -4,12 +4,16 @@ import fede from "../../assets/images/Federico_Santos.jpg";
 import mica from "../../assets/images/Micaela_Lagana.jpg";
 import chris from "../../assets/images/Christian_Giliberti.jpg";
 import nes from "../../assets/images/Nestor_Rivera.jpg";
-import { Card, Container, Row, Col } from 'react-bootstrap';
+import bgImage from "../../assets/images/bg.jpg";
+import { Row, Col } from 'react-bootstrap';
 
 export default function Team() {
   return (
     <>
       <Navbar />
+      <div className="bgContainer">
+        <img src={bgImage} />
+      </div>
       <div className='titulo mt-5'>
         <h2>Nuestro Equipo</h2>
       </div>
