@@ -1,0 +1,8 @@
+.demo {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.body {
+    background: url("../../assets/images/landscape.png") fixed no-repeat;
+}
