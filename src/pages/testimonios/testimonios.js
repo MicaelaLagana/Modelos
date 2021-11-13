@@ -2,9 +2,11 @@ import React from "react";
 import Navbar from "../../components/navbar";
 import Carrousel from '../../components/carrousel';
 import styled from "styled-components";
-
+import bgImage from "../../assets/images/bg.jpg";
 const MainContainer = styled.div`
     padding: 2em;
+    z-index: 5;
+    position: relative;
 `;
 export default function Testimonios() {
   const items = [
@@ -38,8 +40,11 @@ export default function Testimonios() {
   return (
     <div className="testimonio-page">
       <Navbar />
+      <div className="bgContainer">
+        <img src={bgImage} />
+      </div>
       <MainContainer>
-        <Carrousel items={items} itemRender="card" />
+        <Carrousel items={items} itemRender="card" variant="dark" />
       </MainContainer>
     </div>
   );

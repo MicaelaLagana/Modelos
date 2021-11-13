@@ -16,7 +16,7 @@ const CarrouselContainer = styled.div(props => {
   }
 })
 
-const Carousel = ({ height, width, itemRender, items }) => {
+const Carousel = ({ height, width, itemRender, items, variant }) => {
     const getItemsFormanted = () => {
     if(itemRender === 'banner') {
       return items.map((item, index) =>  (
@@ -62,7 +62,7 @@ const Carousel = ({ height, width, itemRender, items }) => {
 
   return (
   <CarrouselContainer height={height} width={width}>
-    <CarouselBoostrap>
+    <CarouselBoostrap  variant={variant}>
         {
           getItemsFormanted()
         }
@@ -81,6 +81,7 @@ Carousel.propTypes = {
   itemRender: oneOf(['banner', 'card']),
   height: string,
   width: string,
+  variant: string,
 }
 
 Carousel.defaultProps = {
@@ -89,6 +90,7 @@ Carousel.defaultProps = {
   itemRender: 'banner',
   height: '75vh',
   width: '100%',
+  variant: ""
 }
 
 
