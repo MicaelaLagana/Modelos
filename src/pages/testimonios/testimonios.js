@@ -7,6 +7,7 @@ import bgImage from "../../assets/images/bg.jpg";
 const MainContainer = styled.div`
     padding: 2em;
     z-index: 5;
+    position: relative;
 `;
 export default function Testimonios() {
   const items = [
@@ -56,7 +57,7 @@ export default function Testimonios() {
         <img src={bgImage} />
       </div>
       <MainContainer>
-        <Carrousel items={items} itemRender="card" height="75vh"/>
+        <Carrousel items={items} itemRender="card" height="75vh" variant="dark"/>
       </MainContainer>
     </div>
   );

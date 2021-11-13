@@ -172,13 +172,6 @@ code {
   justify-content: center;
   align-items: center;
   height: 100%;
-  z-index: 5;
-  position: relative;
-}
-
-.carousel-control-prev, .carousel-control-next {
-  z-index: 5;
-  position: relative;
 }
 
 .carousel-card-item-data {
