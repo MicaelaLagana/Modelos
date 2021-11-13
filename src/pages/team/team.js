@@ -37,8 +37,10 @@ export default function Team() {
                   </li>
                 </div>
                 <div className='card-back'>
+                <li>
                   <h1>Software Developer TL</h1>
-                  <ul>
+                </li>
+                <ul>
                   <li></li>
                     <li>
                       <p>En Hestia buscamos mejorar la performance de la comunicación</p>
@@ -65,7 +67,9 @@ export default function Team() {
                   </li>
                 </div>
                 <div className='card-back'>
+                  <li>
                   <h1>Software Developer</h1>
+                  </li>
                   <ul>
                   <li></li>
                     <li>
@@ -96,7 +100,10 @@ export default function Team() {
                   </li>
                 </div>
                 <div className='card-back'>
+                  <li>
                   <h1>Customer Support</h1>
+                  </li>
+                  
                   <ul>
                   <li></li>
                     <li>
@@ -124,7 +131,9 @@ export default function Team() {
                   </li>
                 </div>
                 <div className='card-back'>
+                  <li>
                   <h1>Marketing Officer</h1>
+                  </li>
                   <ul>
                   <li></li>
                     <li>
