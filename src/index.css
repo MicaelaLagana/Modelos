@@ -312,3 +312,21 @@ nav .container {
   height: 85vh;
   width: 100vw;
 }
+
+.contactForm {
+  margin-top: 200px;
+  margin-right: 200px;
+  width: 700px;
+}
+
+@media (min-width: 1200px) and (max-width: 1366px) {
+  .body {
+    top: -100px !important;
+    min-height: 48em;
+  }
+  .contactForm {
+    width: 480px;
+    margin-right: 50px;
+    margin-top: 218px;
+  }
+}

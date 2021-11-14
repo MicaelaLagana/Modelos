@@ -24,11 +24,7 @@ export default function ContactForm() {
       display: "flex",
       justifyContent: "end",
     }}>
-      <div className=" p-5 col-6" style={{
-              marginTop: "200px",
-              marginRight: "200px",
-              width: "700px"
-      }}>
+      <div className=" p-5 col-6" className="contactForm">
         <Card className="p-4"
         style={{ height: show ? '700px' : '500px' }}>
           <Form>
