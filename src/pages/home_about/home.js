@@ -51,7 +51,7 @@ export default function Home() {
             </div>
             <div className='home_description'>
               <p>
-                Desde Hestia Sistemas nos preocupamos por nuestros clientes, es por ellos que nuestra aplicación te va a permitir que obtengas mejoras en la comunicación con el consorsio y dueños e inquilinos, va a ayudar a que aumente tu productividad desde la administración de los servicios concernientes al edificio, hasta la solicitud de reparaciones y mantenimiento de tu hogar. Nuestra platadorma es accesible y de rápido aprendisaje por lo que te resultara muy comoda en muy poco tiempo.
+              Desde Hestia Sistemas nos preocupamos por nuestros clientes, es por ellos que nuestra aplicación te va a permitir que obtengas mejoras en la comunicación con el consorcio y dueños e inquilinos, va a ayudar a que aumente tu productividad desde la administración de los servicios concernientes al edificio, hasta la solicitud de reparaciones y mantenimiento de tu hogar. Nuestra plataforma es accesible y de rápido aprendizaje por lo que te resultará muy cómoda en muy poco tiempo.
               </p>
 
             </div>
